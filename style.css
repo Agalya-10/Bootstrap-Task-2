@@ -4,3 +4,23 @@
 .family2{
    font-family:  Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
+.family3{
+   font-family:"Newsreader", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.grad{
+      margin-top: 9rem;
+      width: 100%;
+      max-width:25rem;
+      height: 25rem; 
+      border-radius:200px;
+      margin-left: 3rem;
+      padding: 100px;
+      background-image: linear-gradient( 110deg, #2937f0, #9933cb);
+}
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+}
