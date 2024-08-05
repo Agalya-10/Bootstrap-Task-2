@@ -13,9 +13,10 @@
       max-width:25rem;
       height: 25rem; 
       border-radius:200px;
-      margin-left: 3rem;
+      /* margin-left: 3rem; */
       padding: 100px;
       background-image: linear-gradient( 110deg, #2937f0, #9933cb);
+      /* justify-content: end; */
 }
 .mobile{
     display: flex;
@@ -23,4 +24,23 @@
     justify-content: center;
     position: relative;
     align-content: center;
+}
+.grad1{
+    margin-top: 14rem;
+    width: 100%;
+    max-width:16rem;
+    height: 16rem; 
+    border-radius:200px;
+    /* margin-left: 3rem; */
+    padding: 100px;
+    background-image: linear-gradient( 180deg, #2937f0, #9933cb);
+}
+#icon{
+    font-size: 5rem;
+    background: linear-gradient(#2937f0, #9f1ae2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    /* align-items: center; */
+    
 }
