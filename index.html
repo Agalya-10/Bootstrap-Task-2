@@ -7,145 +7,163 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/ec912a53a4.js"crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ec912a53a4.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
     <title>Bootstrap Second Task</title>
+  
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top bg-white navbar-light">
-        <div class="container-fluid  mt-0 pt-0">
-          <a class="text-decoration-none"href="#"><P class="h4 ps-5 ms-5 fs-4 family1 heading" style="text-align: start;font-weight:  600;">Start Bootstrap</p></a>
-          <button class="navbar-toggler d-flex d-lg-none align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="" style="font-size: 16px;color: gray;border-radius: 8px;padding: 12px;">MENU <i class='bx bx-menu'style="font-size:17px;"></i></span>
-            </span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarScroll">
-            <ul class=" navbar-nav ms-auto" style="padding-right: 114px;"  >
-              <li class="nav-item pt-3 me-4 mb-3 family2" style="font-size: 17px;"><a class="nav-link"href="#features">Features</a></li>
-              <li class="nav-item pt-3 me-5 mb-3 family2" style="font-size: 17px;"><a class="nav-link"href="#downloads">Download</a></li>
-              <div>
-                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 40px;"><li class="nav-item  me-3 family2" style="font-size: 15px;"><i class='bx bx-message-rounded-detail' style="font-size: 20px;"alt="boot"></i> Send Feedback</li></button>
-              </div>
-              <div class="modal" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content" >
-                    <div class="modal-header" style="background-image: linear-gradient( 40deg, #2937f0, #8308c0);">
-                      <h5 class="modal-title family1 text-white" id="exampleModalLabel">Send feedback</h5>
-                    </div>
-                    <div class="modal-body">
-                        <form action="">
-                          <div class="form-floating mb-4  " style="font-size: 16px;">
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" name="name"style="max-width:100%;">
-                            <label for="name">Full name</label>
-                          </div>
-                            <div class="form-floating mb-4" style="font-size: 16px;">
-                              <input type="text" class="form-control" id="email" placeholder="Enter email" name="email"style="max-width:100%;">
-                              <label for="email">Email address</label>
-                            </div>
-                            <div class="form-floating  mb-4" style="font-size: 16px;">
-                              <input type="text" class="form-control" id="no" placeholder="Enter no" name="no"style=" max-width:100%;">
-                              <label for="no">Phone number</label>
-                            </div>
-                            <div class="form-floating mb-4" style="font-size: 16px;">
-                              <input type="text" class="form-control" id="msg" placeholder="Enter msg" name="msg"style=" max-width:100%;">
-                              <label for="msg">Message</label>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- <div class="modal-footer"> -->
-                      <button type="button" class="btn btn-primary mb-3 "data-bs-dismiss="modal" style="border-radius: 30px;width: 90%;align-self: center;">submit</button>
-                    <!-- </div> -->
-                  </div>
-                </div>
-              </ul>
-           </div>
-          </div>
-      </nav>
-      <div class="container-fluid family3 " style="background-color: #f8f9fa;font-size: 60px;padding-bottom: 9rem;">
-        <div class=" container d-flex">
-          <div class=" text-align-center ms-5 col-lg-6 col-md-12">
-        <p class="pt-5 mt-5  " style="font-size: 88px;line-height: 90px;">Showcase your app beautifully.</p>
-        <p class="family2 text-secondary" style="font-size: 22px;">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
-        <img class="mt-4" style="height: 53px;width: 200px;" src="image/gp.svg ">
-        <img class="mt-4 " style="height: 53px;width: 200px;" src="image/app-store-badge.svg">
-          </div>
-          <div class="col-lg-6 col-md-12 grad ms-5 "style="display: flex;align-items: center;justify-content: center;position: relative;">
-            <div class="mobile">
-            <video  max-width="335" height="525" style="border-radius: 40px;" autoplay>
-            <source src="image/demo-screen.mp4" type="video/mp4">
-            </video>
-            <img class="" src="image/portrait_black.png" style="height: 530px;width: 265px;position: absolute;">
+      <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top">
+        <div class="container-fluid mt-0 pt-0">
+            <a class="text-decoration-none" href="#"><p class="h4 ps-5 ms-5 fs-4 family1 heading" style="text-align: start; font-weight: 600;">Start Bootstrap</p></a>
+            <button class="navbar-toggler d-flex d-lg-none align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fs-s text-secondary p-2" style="border-radius: 8px;">MENU <i class='bx bx-menu fs-s'></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto" style="padding-right: 114px;">
+                    <li class="nav-item pt-3 me-4 mb-3 family2 fs-5"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item pt-3 me-5 mb-3 family2 fs-5"><a class="nav-link" href="#downloads">Download</a></li>
+                    <button type="button" class="btn btn-primary mt-4 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 40px;">
+                        <li class="me-3 family2 fs-small">
+                          <span class="d-flex" style="justify-content: center;">
+                            <i class='bx bx-message-rounded-detail fs-4'></i>
+                           <span class="ps-2"> Send Feedback </span>
+                            </span>
+                              
+
+                        </li>
+                    </button>
+                </ul>
             </div>
-          </div>
-          </div>    
         </div>
-        <div class="pt-5 pb-5 family3 " style="background-image: linear-gradient( 40deg, #2937f0, #8308c0);text-align: center;">
-          <div class="d-flex mt-4" style="justify-content: center; align-items: center;">
-          <p class="col-lg-6 col-md-6 mb-4 fs-1 text-white">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</p>
-          </div>
-          <img class="mb-4" style="height: 53px;width: 200px;"src="image/tnw-logo.svg">
-          </div>
-          <div class="container d-flex mb-5 pb-5 pt-5" style="flex-direction: row-reverse;" id="features">
-            <div class="col-lg-8 mt-5" style="padding-left: 2rem;">
-              <div class="d-flex mt-5">
-              <div class=" text-center" >
-            <i class='bx bx-mobile-alt' id="icon"></i>
-            <p class="h3 family1 fw-bold mt-4">Device Mockups</p>
-            <p class="family2 text-secondary mt-3 me-5 ms-5 ">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-image: linear-gradient(40deg, #2937f0, #8308c0);">
+                    <h5 class="modal-title family1 text-white" id="exampleModalLabel">Send feedback</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                            <label for="name">Full name</label>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                            <label for="email">Email address</label>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control" id="no" placeholder="Enter no" name="no" style="max-width:100%;">
+                            <label for="no">Phone number</label>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control" id="msg" placeholder="Enter msg" name="msg" style="max-width:100%;">
+                            <label for="msg">Message</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary mb-3 w-90 align-self-center" data-bs-dismiss="modal" style="border-radius: 30px; width: 90%; align-self: center;">Submit</button>
+                </div>
             </div>
-            <div class="text-center">
-            <i class='bx bx-camera' id="icon"></i>
-            <p  class="h3 family1 fw-bold mt-4">Flexible Use</p>
-            <p class="family2 text-secondary mt-3">Put an image, video, animation, or anything else in the screen!</p>
+        </div>
+    </div>
+
+    <div class="container-fluid family3" style="background-color: #f8f9fa; font-size: 60px; padding-bottom: 9rem;">
+        <div class="container d-flex">
+            <div class="text-align-center ms-5 col-lg-6">
+                <p class="pt-5 mt-5 fs-large" style="font-size: 88px; line-height: 90px;">Showcase your app beautifully.</p>
+                <p class="family2 text-secondary" style="font-size: 22px;">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+                <img class="mt-4" style="height: 53px; width: 200px;" src="image/gp.svg">
+                <img class="mt-4" style="height: 53px; width: 200px;" src="image/app-store-badge.svg">
             </div>
+            <div class="col-lg-6 grad ms-5" style="display: flex; align-items: center; justify-content: center; position: relative;">
+                <div class="mobile">
+                    <video max-width="335" height="525" style="border-radius: 40px;" autoplay>
+                        <source src="image/demo-screen.mp4" type="video/mp4">
+                    </video>
+                    <img class="" src="image/portrait_black.png" style="height: 530px; width: 265px; position: absolute;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pt-5 pb-5 family3" style="background-image: linear-gradient(40deg, #2937f0, #8308c0); text-align: center;">
+        <div class="d-flex mt-4" style="justify-content: center; align-items: center;">
+            <p class="col-lg-6 col-md-6 mb-4 fs-1 text-white">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</p>
+        </div>
+        <img class="mb-4" style="height: 53px; width: 200px;" src="image/tnw-logo.svg">
+    </div>
+
+    <div class="container d-flex mb-5 pb-5 pt-5" style="flex-direction: row-reverse;" id="features">
+        <div class="col-lg-8 mt-5" style="padding-left: 2rem;">
+            <div class="d-flex mt-5">
+                <div class="text-center">
+                    <i class='bx bx-mobile-alt' id="icon"></i>
+                    <p class="h3 family1 fw-bold mt-4">Device Mockups</p>
+                    <p class="family2 text-secondary mt-3 me-5 ms-5">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                </div>
+                <div class="text-center">
+                    <i class='bx bx-camera' id="icon"></i>
+                    <p class="h3 family1 fw-bold mt-4">Flexible Use</p>
+                    <p class="family2 text-secondary mt-3">Put an image, video, animation, or anything else in the screen!</p>
+                </div>
             </div>
             <div class="d-flex mt-5">
-              <div class="text-center">
-            <i class='bx bx-gift' id="icon"></i>
-            <p  class="h3 family1 fw-bold mt-4">Free to Use</p>
-            <p class="family2 text-secondary mt-3 me-5 ms-5">As always, this theme is free to download and use for any purpose!</p>
+                <div class="text-center">
+                    <i class='bx bx-gift' id="icon"></i>
+                    <p class="h3 family1 fw-bold mt-4">Free to Use</p>
+                    <p class="family2 text-secondary mt-3 me-5 ms-5">As always, this theme is free to download and use for any purpose!</p>
+                </div>
+                <div class="text-center mt-1">
+                    <i class='bx bx-badge-check' id="icon"></i>
+                    <p class="h3 family1 fw-bold mt-4">Open Source</p>
+                    <p class="family2 text-secondary mt-3 me-5 ms-2">Since this theme is MIT licensed, you can use it commercially!</p>
+                </div>
             </div>
-            <div class="text-center mt-1">
-            <i class='bx bx-badge-check' id="icon"></i>
-            <p  class="h3 family1 fw-bold mt-4">Open Source</p>
-            <p class="family2 text-secondary mt-3 me-5 ms-2">Since this theme is MIT licensed, you can use it commercially!</p>
+        </div>
+        <div class="grad1 col-lg-4 col-md-12" style="display: flex; align-items: center; justify-content: start; position: relative; margin-right: 5rem;">
+            <div class="mobile">
+                <video max-width="335" height="525" style="border-radius: 40px;" autoplay>
+                    <source src="image/demo-screen.mp4" type="video/mp4">
+                </video>
+                <img class="" src="image/portrait_black.png" style="height: 530px; width: 265px; position: absolute;">
             </div>
-            </div>
-            </div>
-            <div class="grad1 col-lg-4 col-md-12" style="display: flex;align-items: center;justify-content: start;position: relative;margin-right: 5rem;">
-              <div class=" mobile">
-              <video  max-width="335" height="525" style="border-radius: 40px;" autoplay>
-              <source src="image/demo-screen.mp4" type="video/mp4">
-              </video>
-              <img class="" src="image/portrait_black.png" style="height: 530px;width: 265px;position: absolute;">
-              </div>
-            </div>
-          </div>
-          <div class="container-fluid d-flex" style="background-color: #f8f9fa;">
-            <div class=" col-12 col-lg-5 ps-5 ms-4">
-            <p class=" h1 family3 fw-bold " style="font-size: 56px;line-height: 55px;padding-top: 8rem;">Enter a new age of web design</p>
-            <p class=" text-secondary mt-4 " style="font-size: 23px;">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
-            </div>
-           <img class="col-lg-6" src="image/circle.jpg" style="width: 100%;max-width:42rem; height: 42rem;border-radius:400px;padding: 100px;">
-          </div>
-          <div class="pt-5" style="background-color: rgba(0, 0, 0, 0.5);">
-            <p class="h1 family3 col-lg-6 text-white ms-5 ps-5" style="font-size: 80px;line-height: 80px;padding-top:11rem;">Stop waiting.<br>Start building.</p>
-            <a href="#"></href><button type="button" class="button btn border-1 border-white px-4 py-3 family2 mt-4" style="border-radius: 30px;margin-left: 6rem; margin-bottom: 11rem;" >Download for free</button></a>
-          </div>
-          <div class="pb-5 pt-5"style="background-image: linear-gradient( 40deg, #2937f0, #8308c0);text-align: center;"id="downloads">
-            <h1 class="family1 text-white fs-2 fw-bold mt-3">Get the app now!</h1>
-            <img class="mt-4 mb-4" style="height: 53px;width: 200px;" src="image/gp.svg ">
-            <img class="mt-4  mb-4" style="height: 53px;width: 200px;" src="image/app-store-badge.svg">
-          </div>
-          <div class="bg-dark pt-5 pb-5">
-            <p class="text-white text-center family2" style="font-size: 14px;">© Your Website 2023. All Rights Reserved.</p>
-            <div class="text-center family2" style="font-size: 14px;">
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex" style="background-color: #f8f9fa;">
+        <div class="col-12 col-lg-5 ps-5 ms-4">
+            <p class="h1 family3 fw-bold" style="font-size: 56px; line-height: 55px; padding-top: 8rem;">Enter a new age of web design</p>
+            <p class="text-secondary mt-4" style="font-size: 23px;">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
+        </div>
+        <img class="col-lg-6" src="image/circle.jpg" style="width: 100%; max-width: 42rem; height: 42rem; border-radius: 400px; padding: 100px;">
+    </div>
+
+    <div class="pt-5 image">
+        <p class="h1 family3 col-lg-6 text-white ms-5 ps-5" style="font-size: 80px; line-height: 80px; padding-top: 11rem;">Stop waiting.<br>Start building.</p>
+        <a href="#"><button type="button" class="button btn border-1 border-white px-4 py-3 family2 mt-4" style="border-radius: 30px; margin-left: 6rem; margin-bottom: 11rem;">Download for free</button></a>
+    </div>
+
+    <div class="pb-5 pt-5" style="background-image: linear-gradient(40deg, #2937f0, #8308c0); text-align: center;" id="downloads">
+        <h1 class="family1 text-white fs-2 fw-bold mt-3">Get the app now!</h1>
+        <img class="mt-4 mb-4" style="height: 53px; width: 200px;" src="image/gp.svg">
+        <img class="mt-4 mb-4" style="height: 53px; width: 200px;" src="image/app-store-badge.svg">
+    </div>
+
+    <div class="bg-dark pt-5 pb-5">
+        <p class="text-white text-center family2 fs-small">© Your Website 2023. All Rights Reserved.</p>
+        <div class="text-center family2" style="font-size: 14px;">
             <a class="text-decoration-none text-white" href="#">Privacy   .</a>
-            <a class="text-decoration-none text-white"href="#">Terms   .</a>
-            <a class="text-decoration-none text-white"href="#">FAQ</a>
-            </div>
-          </div>      
+            <a class="text-decoration-none text-white" href="#">Terms   .</a>
+            <a class="text-decoration-none text-white" href="#">FAQ</a>
+        </div>
+    </div>
+
+  
 </body>
 </html>
