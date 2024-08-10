@@ -57,7 +57,77 @@
    .image{
     background-image: url("image/bg image.jpg");
     background-size: cover;
+}
+@media screen and (max-width:768px){
+    .title{
+        /* margin-top: 0 !important; */
+    }
+   
+    .grad1{
+        justify-content: center !important;
+        margin-top: 9rem !important;
+        width: 100% !important;
+        max-width:25rem !important;
+        height: 25rem !important; 
+        border-radius:200px !important;
+        padding: 100px !important;
+        background-image: linear-gradient( 110deg, #2937f0, #9933cb) !important;
+        margin-left: 9rem !important;
+    }
+    .link{
+        width: 11rem !important;
+    }
+      
+    .ball{
+        margin-left: 9rem !important;
+    }
+    .picture{
+        margin-left: 8rem !important;
+        height: 28rem !important;
+        width: 28rem !important;
+    }
 
-   }
+  }
+  @media screen and (max-width:425px){
+    .title{
+        margin-left: -60px !important;
+        /* margin-top: 3rem !important; */
+    }
+    .picture{
+        height: 25rem !important;
+        width: 25rem !important;
+        margin-left: 0 !important;
+    }
+    .ball{
+        margin-left: o !important;
+    }
+    .grad{
+        background-image: none !important;
+        margin-left: 0 !important;
+    }
+    .grad1{
+        background-image: none !important;
+        margin-left: 0 !important;
+    }
+  }
+  @media screen and (max-width:375px){
+    .picture{
+        height: 22rem !important;
+        width: 22rem !important;
+    }
+  }
+ @media screen and (max-width:320px){
+    .title{
+        margin-left: -40px !important;
+    }
+    .menu{
+        margin-left: 3.5rem !important;
+      }
+    .picture{
+        height: 18rem !important;
+        width: 18rem !important;
+    }
+ }
+
 
    
